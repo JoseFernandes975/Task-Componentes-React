@@ -9,7 +9,7 @@ nav h1 {
     text-align: center
 }
 
-@media(min-width: 960px) {
+@media(min-width: 1200px) {
     nav h1{
         font-size: 24px;
     }

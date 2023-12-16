@@ -33,7 +33,7 @@
   margin-bottom: 25px;
 }
 
-@media(min-width: 960px){
+@media(min-width: 1200px){
   .dsct-title-section {
     font-size: 32px;
   }

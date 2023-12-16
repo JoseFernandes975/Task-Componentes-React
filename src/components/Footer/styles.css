@@ -13,7 +13,7 @@ footer {
     grid-gap: 10px;
 }
 
-@media(min-width: 960px){
+@media(min-width: 1200px){
     .dsct-container-footer {
         flex-direction: row;
         justify-content: space-around;

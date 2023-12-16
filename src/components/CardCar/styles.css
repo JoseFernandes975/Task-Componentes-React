@@ -9,13 +9,9 @@
 }
 
 .dsct-card-car img {
+    width: 100%;
+    max-width: 391px;
     margin-bottom: 10px;
-}
-
-@media(min-width: 960px) {
-    .dsct-card-car img {
-        width: 391px;
-    }
 }
 
 .dsct-card-car h3 {
