@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --dsct-bg-color-primary: #3C9AF0;
+  --dsct-bg-color-secondary: #C8C8C8;
+  --dsct-bg-color-tertiary: #FFFFFF;
+
+  --dsct-font-color-primary: #5E5E5E;
+  --dsct-font-color-secondary: #3C9AF0;
+  --dsct-font-colot-tertiray: #FFFFFF;
+
+  --dsct-border-color-primary: #3C9AF0;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+.dsct-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dsct-title-section {
+  color: var(--dsct-font-color-primary);
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+@media(min-width: 960px){
+  .dsct-title-section {
+    font-size: 32px;
+  }
+}
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*Section Cars*/
+
+#section-cars {
+  padding: 25px 20px;
+}
+
+.dsct-cards-cars-container {
+  display: grid;
+  grid-gap: 25px;
+  max-width: 746px;
+  margin: 0 auto;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*Section Commentary*/
+
+#section-commentarys{
+  padding: 25px 20px;
+  background-color: var(--dsct-bg-color-secondary);
+}
+
+.dsct-cards-commentarys-container {
+   display: flex;
+   flex-direction: column;
+   grid-gap: 20px;
+}

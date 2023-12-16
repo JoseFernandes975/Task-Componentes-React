@@ -1,0 +1,16 @@
+header {
+    background-color: var(--dsct-bg-color-primary);
+    padding: 20px 0;
+}
+
+nav h1 {
+    color: var(--dsct-font-colot-tertiray);
+    font-size: 20px;
+    text-align: center
+}
+
+@media(min-width: 960px) {
+    nav h1{
+        font-size: 24px;
+    }
+}

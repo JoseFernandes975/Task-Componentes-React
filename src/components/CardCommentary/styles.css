@@ -1,0 +1,11 @@
+.dsct-card-commentary {
+    background-color: var(--dsct-bg-color-tertiary);
+    border: 1px solid var(--dsct-border-color-primary);
+    border-radius: 12px;
+    padding: 25px 20px;
+}
+
+.dsct-card-commentary p {
+    font-size: 16px;
+    color: var(--dsct-font-color-secondary);
+}
